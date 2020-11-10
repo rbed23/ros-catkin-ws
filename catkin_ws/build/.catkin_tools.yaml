@@ -1,0 +1,6 @@
+devel_space: /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel
+install: false
+install_space: /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/install
+profile: default
+source_space: /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src
+workspace: /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws

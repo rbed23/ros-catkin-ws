@@ -1,0 +1,18 @@
+Symlinking /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/include/hrwros_msgs/SensorInformation.h
+Linked: (/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/lib/pkgconfig/hrwros_msgs.pc, /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/lib/pkgconfig/hrwros_msgs.pc)
+Symlinking /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/lib/python3/dist-packages/hrwros_msgs/__init__.py
+Symlinking /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/lib/python3/dist-packages/hrwros_msgs/msg/_SensorInformation.py
+Symlinking /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/lib/python3/dist-packages/hrwros_msgs/msg/__init__.py
+Symlinking /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/hrwros_msgs-msg.asd
+Symlinking /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/SensorInformation.lisp
+Symlinking /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/_package.lisp
+Symlinking /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/share/common-lisp/ros/hrwros_msgs/msg/_package_SensorInformation.lisp
+Symlinking /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/share/gennodejs/ros/hrwros_msgs/_index.js
+Symlinking /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/share/gennodejs/ros/hrwros_msgs/msg/SensorInformation.js
+Symlinking /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/share/gennodejs/ros/hrwros_msgs/msg/_index.js
+Symlinking /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/share/hrwros_msgs/cmake/hrwros_msgs-msg-extras.cmake
+Symlinking /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/share/hrwros_msgs/cmake/hrwros_msgs-msg-paths.cmake
+Linked: (/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/share/hrwros_msgs/cmake/hrwros_msgsConfig-version.cmake, /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/share/hrwros_msgs/cmake/hrwros_msgsConfig-version.cmake)
+Linked: (/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/share/hrwros_msgs/cmake/hrwros_msgsConfig.cmake, /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/share/hrwros_msgs/cmake/hrwros_msgsConfig.cmake)
+Symlinking /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/share/roseus/ros/hrwros_msgs/manifest.l
+Symlinking /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/share/roseus/ros/hrwros_msgs/msg/SensorInformation.l

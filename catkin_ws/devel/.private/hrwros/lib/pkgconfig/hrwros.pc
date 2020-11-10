@@ -1,0 +1,8 @@
+prefix=/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros
+
+Name: hrwros
+Description: Description of hrwros
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
