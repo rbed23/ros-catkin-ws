@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/beginner_tutorials_generate_messages_cpp"
   "/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/beginner_tutorials/include/beginner_tutorials/Num.h"
+  "/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/beginner_tutorials/include/beginner_tutorials/add_two_ints.h"
 )
 
 # Per-language clean rules from dependency scanning.

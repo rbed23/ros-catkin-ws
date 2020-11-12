@@ -1,0 +1,1 @@
+/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/share/gennodejs/ros/hrwros_msgs/srv/_index.js

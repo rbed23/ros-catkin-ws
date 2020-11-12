@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/
 include CMakeFiles/beginner_tutorials_generate_messages_eus.dir/progress.make
 
 CMakeFiles/beginner_tutorials_generate_messages_eus: /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/beginner_tutorials/share/roseus/ros/beginner_tutorials/msg/Num.l
+CMakeFiles/beginner_tutorials_generate_messages_eus: /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/beginner_tutorials/share/roseus/ros/beginner_tutorials/srv/add_two_ints.l
 CMakeFiles/beginner_tutorials_generate_messages_eus: /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/beginner_tutorials/share/roseus/ros/beginner_tutorials/manifest.l
 
 
@@ -62,12 +63,18 @@ CMakeFiles/beginner_tutorials_generate_messages_eus: /mnt/c/Users/Ryan/Desktop/c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/build/beginner_tutorials/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from beginner_tutorials/Num.msg"
 	catkin_generated/env_cached.sh /home/rbednar/.local/share/virtualenvs/ros-edx-example-TNbRsaha/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/beginner_tutorials/msg/Num.msg -Ibeginner_tutorials:/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/beginner_tutorials/share/roseus/ros/beginner_tutorials/msg
 
+/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/beginner_tutorials/share/roseus/ros/beginner_tutorials/srv/add_two_ints.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/beginner_tutorials/share/roseus/ros/beginner_tutorials/srv/add_two_ints.l: /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/beginner_tutorials/srv/add_two_ints.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/build/beginner_tutorials/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from beginner_tutorials/add_two_ints.srv"
+	catkin_generated/env_cached.sh /home/rbednar/.local/share/virtualenvs/ros-edx-example-TNbRsaha/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/beginner_tutorials/srv/add_two_ints.srv -Ibeginner_tutorials:/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/beginner_tutorials/share/roseus/ros/beginner_tutorials/srv
+
 /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/beginner_tutorials/share/roseus/ros/beginner_tutorials/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/build/beginner_tutorials/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for beginner_tutorials"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/build/beginner_tutorials/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp manifest code for beginner_tutorials"
 	catkin_generated/env_cached.sh /home/rbednar/.local/share/virtualenvs/ros-edx-example-TNbRsaha/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/beginner_tutorials/share/roseus/ros/beginner_tutorials beginner_tutorials std_msgs
 
 beginner_tutorials_generate_messages_eus: CMakeFiles/beginner_tutorials_generate_messages_eus
 beginner_tutorials_generate_messages_eus: /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/beginner_tutorials/share/roseus/ros/beginner_tutorials/msg/Num.l
+beginner_tutorials_generate_messages_eus: /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/beginner_tutorials/share/roseus/ros/beginner_tutorials/srv/add_two_ints.l
 beginner_tutorials_generate_messages_eus: /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/beginner_tutorials/share/roseus/ros/beginner_tutorials/manifest.l
 beginner_tutorials_generate_messages_eus: CMakeFiles/beginner_tutorials_generate_messages_eus.dir/build.make
 

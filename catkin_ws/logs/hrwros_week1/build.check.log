@@ -17,6 +17,8 @@
 [36m--[0m BUILD_SHARED_LIBS is on
 [36m--[0m Installing devel-space wrapper /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_week1/scripts/sensor_info_publisher.py to /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_week1/lib/hrwros_week1
 [36m--[0m Installing devel-space wrapper /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_week1/scripts/sensor_info_subscriber.py to /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_week1/lib/hrwros_week1
+[36m--[0m Installing devel-space wrapper /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_week1/scripts/convert_server.py to /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_week1/lib/hrwros_week1
+[36m--[0m Installing devel-space wrapper /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_week1/scripts/convert_client.py to /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_week1/lib/hrwros_week1
 [36m--[0m Configuring done
 [36m--[0m Generating done
 [36m--[0m Build files have been written to: /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/build/hrwros_week1

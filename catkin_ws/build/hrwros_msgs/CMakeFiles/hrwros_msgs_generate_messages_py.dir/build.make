@@ -54,7 +54,9 @@ CMAKE_BINARY_DIR = /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/
 include CMakeFiles/hrwros_msgs_generate_messages_py.dir/progress.make
 
 CMakeFiles/hrwros_msgs_generate_messages_py: /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/lib/python3/dist-packages/hrwros_msgs/msg/_SensorInformation.py
+CMakeFiles/hrwros_msgs_generate_messages_py: /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/lib/python3/dist-packages/hrwros_msgs/srv/_meters_2_feet.py
 CMakeFiles/hrwros_msgs_generate_messages_py: /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/lib/python3/dist-packages/hrwros_msgs/msg/__init__.py
+CMakeFiles/hrwros_msgs_generate_messages_py: /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/lib/python3/dist-packages/hrwros_msgs/srv/__init__.py
 
 
 /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/lib/python3/dist-packages/hrwros_msgs/msg/_SensorInformation.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
@@ -64,14 +66,28 @@ CMakeFiles/hrwros_msgs_generate_messages_py: /mnt/c/Users/Ryan/Desktop/cli-git-f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/build/hrwros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG hrwros_msgs/SensorInformation"
 	catkin_generated/env_cached.sh /home/rbednar/.local/share/virtualenvs/ros-edx-example-TNbRsaha/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_msgs/msg/SensorInformation.msg -Ihrwros_msgs:/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_msgs/msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p hrwros_msgs -o /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/lib/python3/dist-packages/hrwros_msgs/msg
 
+/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/lib/python3/dist-packages/hrwros_msgs/srv/_meters_2_feet.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/lib/python3/dist-packages/hrwros_msgs/srv/_meters_2_feet.py: /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_msgs/srv/meters_2_feet.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/build/hrwros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV hrwros_msgs/meters_2_feet"
+	catkin_generated/env_cached.sh /home/rbednar/.local/share/virtualenvs/ros-edx-example-TNbRsaha/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_msgs/srv/meters_2_feet.srv -Ihrwros_msgs:/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_msgs/msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p hrwros_msgs -o /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/lib/python3/dist-packages/hrwros_msgs/srv
+
 /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/lib/python3/dist-packages/hrwros_msgs/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/lib/python3/dist-packages/hrwros_msgs/msg/__init__.py: /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/lib/python3/dist-packages/hrwros_msgs/msg/_SensorInformation.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/build/hrwros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for hrwros_msgs"
+/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/lib/python3/dist-packages/hrwros_msgs/msg/__init__.py: /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/lib/python3/dist-packages/hrwros_msgs/srv/_meters_2_feet.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/build/hrwros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for hrwros_msgs"
 	catkin_generated/env_cached.sh /home/rbednar/.local/share/virtualenvs/ros-edx-example-TNbRsaha/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/lib/python3/dist-packages/hrwros_msgs/msg --initpy
+
+/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/lib/python3/dist-packages/hrwros_msgs/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/lib/python3/dist-packages/hrwros_msgs/srv/__init__.py: /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/lib/python3/dist-packages/hrwros_msgs/msg/_SensorInformation.py
+/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/lib/python3/dist-packages/hrwros_msgs/srv/__init__.py: /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/lib/python3/dist-packages/hrwros_msgs/srv/_meters_2_feet.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/build/hrwros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python srv __init__.py for hrwros_msgs"
+	catkin_generated/env_cached.sh /home/rbednar/.local/share/virtualenvs/ros-edx-example-TNbRsaha/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/lib/python3/dist-packages/hrwros_msgs/srv --initpy
 
 hrwros_msgs_generate_messages_py: CMakeFiles/hrwros_msgs_generate_messages_py
 hrwros_msgs_generate_messages_py: /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/lib/python3/dist-packages/hrwros_msgs/msg/_SensorInformation.py
+hrwros_msgs_generate_messages_py: /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/lib/python3/dist-packages/hrwros_msgs/srv/_meters_2_feet.py
 hrwros_msgs_generate_messages_py: /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/lib/python3/dist-packages/hrwros_msgs/msg/__init__.py
+hrwros_msgs_generate_messages_py: /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/lib/python3/dist-packages/hrwros_msgs/srv/__init__.py
 hrwros_msgs_generate_messages_py: CMakeFiles/hrwros_msgs_generate_messages_py.dir/build.make
 
 .PHONY : hrwros_msgs_generate_messages_py

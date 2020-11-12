@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "hrwros_msgs: 1 messages, 0 services")
+message(STATUS "hrwros_msgs: 1 messages, 1 services")
 
 set(MSG_I_FLAGS "-Ihrwros_msgs:/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_msgs/msg;-Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg")
 
@@ -22,6 +22,11 @@ add_custom_target(_hrwros_msgs_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hrwros_msgs" "/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_msgs/msg/SensorInformation.msg" "sensor_msgs/Range:std_msgs/Header"
 )
 
+get_filename_component(_filename "/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_msgs/srv/meters_2_feet.srv" NAME_WE)
+add_custom_target(_hrwros_msgs_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "hrwros_msgs" "/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_msgs/srv/meters_2_feet.srv" ""
+)
+
 #
 #  langs = gencpp;geneus;genlisp;gennodejs;genpy
 #
@@ -36,6 +41,12 @@ _generate_msg_cpp(hrwros_msgs
 )
 
 ### Generating Services
+_generate_srv_cpp(hrwros_msgs
+  "/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_msgs/srv/meters_2_feet.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/hrwros_msgs
+)
 
 ### Generating Module File
 _generate_module_cpp(hrwros_msgs
@@ -50,6 +61,8 @@ add_dependencies(hrwros_msgs_generate_messages hrwros_msgs_generate_messages_cpp
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_msgs/msg/SensorInformation.msg" NAME_WE)
+add_dependencies(hrwros_msgs_generate_messages_cpp _hrwros_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_msgs/srv/meters_2_feet.srv" NAME_WE)
 add_dependencies(hrwros_msgs_generate_messages_cpp _hrwros_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -69,6 +82,12 @@ _generate_msg_eus(hrwros_msgs
 )
 
 ### Generating Services
+_generate_srv_eus(hrwros_msgs
+  "/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_msgs/srv/meters_2_feet.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/hrwros_msgs
+)
 
 ### Generating Module File
 _generate_module_eus(hrwros_msgs
@@ -83,6 +102,8 @@ add_dependencies(hrwros_msgs_generate_messages hrwros_msgs_generate_messages_eus
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_msgs/msg/SensorInformation.msg" NAME_WE)
+add_dependencies(hrwros_msgs_generate_messages_eus _hrwros_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_msgs/srv/meters_2_feet.srv" NAME_WE)
 add_dependencies(hrwros_msgs_generate_messages_eus _hrwros_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -102,6 +123,12 @@ _generate_msg_lisp(hrwros_msgs
 )
 
 ### Generating Services
+_generate_srv_lisp(hrwros_msgs
+  "/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_msgs/srv/meters_2_feet.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/hrwros_msgs
+)
 
 ### Generating Module File
 _generate_module_lisp(hrwros_msgs
@@ -116,6 +143,8 @@ add_dependencies(hrwros_msgs_generate_messages hrwros_msgs_generate_messages_lis
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_msgs/msg/SensorInformation.msg" NAME_WE)
+add_dependencies(hrwros_msgs_generate_messages_lisp _hrwros_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_msgs/srv/meters_2_feet.srv" NAME_WE)
 add_dependencies(hrwros_msgs_generate_messages_lisp _hrwros_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -135,6 +164,12 @@ _generate_msg_nodejs(hrwros_msgs
 )
 
 ### Generating Services
+_generate_srv_nodejs(hrwros_msgs
+  "/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_msgs/srv/meters_2_feet.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/hrwros_msgs
+)
 
 ### Generating Module File
 _generate_module_nodejs(hrwros_msgs
@@ -149,6 +184,8 @@ add_dependencies(hrwros_msgs_generate_messages hrwros_msgs_generate_messages_nod
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_msgs/msg/SensorInformation.msg" NAME_WE)
+add_dependencies(hrwros_msgs_generate_messages_nodejs _hrwros_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_msgs/srv/meters_2_feet.srv" NAME_WE)
 add_dependencies(hrwros_msgs_generate_messages_nodejs _hrwros_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -168,6 +205,12 @@ _generate_msg_py(hrwros_msgs
 )
 
 ### Generating Services
+_generate_srv_py(hrwros_msgs
+  "/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_msgs/srv/meters_2_feet.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/hrwros_msgs
+)
 
 ### Generating Module File
 _generate_module_py(hrwros_msgs
@@ -182,6 +225,8 @@ add_dependencies(hrwros_msgs_generate_messages hrwros_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_msgs/msg/SensorInformation.msg" NAME_WE)
+add_dependencies(hrwros_msgs_generate_messages_py _hrwros_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/hrwros_msgs/srv/meters_2_feet.srv" NAME_WE)
 add_dependencies(hrwros_msgs_generate_messages_py _hrwros_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

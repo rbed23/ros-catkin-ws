@@ -4,5 +4,5 @@ Name: hrwros_week1
 Description: Description of hrwros_week1
 Version: 0.0.0
 Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
+Libs: -L${prefix}/lib -lhrwros_week1
+Requires: rospy std_msgs

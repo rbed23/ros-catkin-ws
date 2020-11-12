@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hrwros_msgs_generate_messages_cpp"
   "/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/include/hrwros_msgs/SensorInformation.h"
+  "/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/include/hrwros_msgs/meters_2_feet.h"
 )
 
 # Per-language clean rules from dependency scanning.
