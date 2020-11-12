@@ -103,8 +103,8 @@ find_package(catkin REQUIRED COMPONENTS
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES hrwros_week1
-#  CATKIN_DEPENDS rospy std_msgs
+LIBRARIES hrwros_week1
+CATKIN_DEPENDS rospy std_msgs
 #  DEPENDS system_lib
 )
 
@@ -162,7 +162,10 @@ catkin_install_python(
     PROGRAMS
       scripts/sensor_info_publisher.py
       scripts/sensor_info_subscriber.py
-    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+      scripts/convert_server.py
+      scripts/convert_client.py
+    DESTINATION
+      ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
 ## Mark executables for installation

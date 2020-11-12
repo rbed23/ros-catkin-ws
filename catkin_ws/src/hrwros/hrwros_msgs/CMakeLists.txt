@@ -54,11 +54,10 @@ add_message_files(
 )
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
+add_service_files(
+  FILES
+  meters_2_feet.srv
+)
 
 ## Generate actions in the 'action' folder
 # add_action_files(
@@ -160,10 +159,18 @@ include_directories(
 
 ## Mark executable scripts (Python etc.) for installation
 ## in contrast to setup.py, you can choose the destination
-# catkin_install_python(PROGRAMS
-#   scripts/my_python_script
-#   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-# )
+catkin_install_python(
+  PROGRAMS
+    # add python scripts here
+  DESTINATION
+    ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+##catkin_install_python(
+#  PROGRAMS
+#    # add python scripts here
+#  DESTINATION
+#    ${CATKIN_PACKAGE_BIN_DESTINATION}
+#)
 
 ## Mark executables for installation
 ## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_executables.html
