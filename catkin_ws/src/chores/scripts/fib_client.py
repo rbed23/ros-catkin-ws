@@ -8,7 +8,7 @@ import actionlib
 from actionlib_msgs.msg import GoalStatus, GoalStatusArray
 # Brings in the messages used by the fibonacci action, including the
 # goal message and the result message.
-from chores.msg import fibonacciAction, fibonacciGoal, fibonacciActionResult
+from chores.msg import fibonacciAction, fibonacciGoal, fibonacciResult
 
 current_seq = None
 current_order = None
@@ -45,13 +45,7 @@ def fibonacci_client(order):
     goal = fibonacciGoal(order=order)
 
     # Create Action Result variable
-    result = fibonacciActionResult()
-
-    # Initial state of result
-    result.header.stamp = rospy.Time.now()
-    result.status.goal_id.id = f"{goal.order}_{rospy.Time.now()}"
-    result.status.status = client.get_state()
-    result.status.text = "initialized"
+    result = fibonacciResult()
 
     # Sends the goal to the action server.
     client.send_goal(
@@ -64,22 +58,13 @@ def fibonacci_client(order):
     if client.wait_for_result(timeout=rospy.Duration(2)):
         if client.get_state() == GoalStatus.SUCCEEDED:
             # Prints out the result of executing the action
-            result.result = client.get_result()
-            result.status.goal_id.stamp = rospy.Time.now()
-            result.status.status = client.get_state()
-            result.status.text = "succeeded"
+            result = client.get_result()
             return result  # A FibonacciResult
     else:
         while True:
             print("Interrupted; still active")
-            result.status.goal_id.stamp = rospy.Time.now()
-            result.status.status = GoalStatus.ACTIVE
-            result.status.text = "active"
             if client.wait_for_result(timeout=rospy.Duration(2)):
-                result.status.goal_id.stamp = rospy.Time.now()
-                result.result = client.get_result()
-                result.status.status = GoalStatus.SUCCEEDED
-                result.status.text = "succeeded"
+                result = client.get_result()
                 return result
 
 
