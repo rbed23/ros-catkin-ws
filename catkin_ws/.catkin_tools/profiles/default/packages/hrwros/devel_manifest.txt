@@ -1,6 +1,0 @@
-hrwros
-/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros/cmake.lock /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/./cmake.lock
-/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros/lib/pkgconfig/hrwros.pc /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/lib/pkgconfig/hrwros.pc
-/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros/share/hrwros/cmake/hrwros-msg-paths.cmake /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/share/hrwros/cmake/hrwros-msg-paths.cmake
-/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros/share/hrwros/cmake/hrwrosConfig-version.cmake /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/share/hrwros/cmake/hrwrosConfig-version.cmake
-/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros/share/hrwros/cmake/hrwrosConfig.cmake /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/share/hrwros/cmake/hrwrosConfig.cmake
