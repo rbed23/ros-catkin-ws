@@ -50,7 +50,8 @@ class FibonacciAction(object):
           
         if success:
             self._result.sequence = self._feedback.sequence
-            rospy.loginfo('%s: Succeeded' % self._action_name)
+            rospy.loginfo(f"{self._action_name}: Succeeded")
+            rospy.loginfo(f"{self._feedback.sequence}")
             self._as.set_succeeded(self._result)
         
 if __name__ == '__main__':
