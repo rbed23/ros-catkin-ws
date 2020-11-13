@@ -1,0 +1,8 @@
+prefix=/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/chores
+
+Name: chores
+Description: Description of chores
+Version: 0.0.0
+Cflags: -I/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/chores/include
+Libs: -L${prefix}/lib -lchores
+Requires: actionlib_msgs message_generation rospy std_msgs message_runtime
