@@ -1,8 +1,0 @@
-[31m[1mCMake Error[0m at /opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake:151 (message):
-  add_service_files() directory not found:
-  /mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/src/hrwros/srv
-[36mCall Stack (most recent call first):[0m
-  CMakeLists.txt:51 (add_service_files)
-
-
-make: *** [Makefile:334: cmake_check_build_system] Error 1

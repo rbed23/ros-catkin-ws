@@ -1,2 +1,0 @@
-set(chores_MESSAGE_FILES "msg/do_dishesAction.msg;msg/do_dishesActionGoal.msg;msg/do_dishesActionResult.msg;msg/do_dishesActionFeedback.msg;msg/do_dishesGoal.msg;msg/do_dishesResult.msg;msg/do_dishesFeedback.msg;msg/fibonacciAction.msg;msg/fibonacciActionGoal.msg;msg/fibonacciActionResult.msg;msg/fibonacciActionFeedback.msg;msg/fibonacciGoal.msg;msg/fibonacciResult.msg;msg/fibonacciFeedback.msg")
-set(chores_SERVICE_FILES "")

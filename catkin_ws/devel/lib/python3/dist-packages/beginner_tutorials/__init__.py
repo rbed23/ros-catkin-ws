@@ -1,1 +1,0 @@
-/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/beginner_tutorials/lib/python3/dist-packages/beginner_tutorials/__init__.py

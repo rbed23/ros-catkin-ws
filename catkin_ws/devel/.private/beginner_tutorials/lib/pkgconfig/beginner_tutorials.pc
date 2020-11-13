@@ -1,8 +1,0 @@
-prefix=/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/beginner_tutorials
-
-Name: beginner_tutorials
-Description: Description of beginner_tutorials
-Version: 0.0.0
-Cflags: -I/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/beginner_tutorials/include
-Libs: -L${prefix}/lib 
-Requires: roscpp rospy std_msgs message_runtime

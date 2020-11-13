@@ -1,1 +1,0 @@
-/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/chores/lib/python3/dist-packages/chores/msg/_do_dishesActionResult.py

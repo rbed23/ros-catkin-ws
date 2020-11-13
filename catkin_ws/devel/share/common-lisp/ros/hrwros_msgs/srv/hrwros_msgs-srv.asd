@@ -1,1 +1,0 @@
-/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_msgs/share/common-lisp/ros/hrwros_msgs/srv/hrwros_msgs-srv.asd

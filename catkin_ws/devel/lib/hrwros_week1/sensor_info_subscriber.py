@@ -1,1 +1,0 @@
-/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/devel/.private/hrwros_week1/lib/hrwros_week1/sensor_info_subscriber.py

@@ -1,8 +1,0 @@
-prefix=/mnt/c/Users/Ryan/Desktop/cli-git-folder/ros/ros-edx-example/catkin_ws/install
-
-Name: hrwros_msgs
-Description: Description of hrwros_msgs
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: rospy sensor_msgs std_msgs
