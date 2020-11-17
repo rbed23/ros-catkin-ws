@@ -9,11 +9,10 @@ from hrwros_msgs.srv import meters_2_feet as m2f, meters_2_feetResponse as m2fR
 
 def meters_2_feet_client(meters):
     # waiting for service server to spin up
-    rospy.wait_for_service('meters_2_feet')
-    
+    rospy.wait_for_service('meters_2_feet_server')
     try:
         # create a service proxy
-        meters_2_feet = rospy.ServiceProxy('meters_2_feet', m2f)
+        meters_2_feet = rospy.ServiceProxy('meters_2_feet_server', m2f)
         
         # call / execute service function
         response = meters_2_feet(meters)
@@ -24,7 +23,7 @@ def meters_2_feet_client(meters):
             return "<-inf>"
 
     except rospy.ServiceException as e:
-        print(f"Service call failed: {e}")
+        rospy.logerror(f"Service call failed: {e}")
 
 
 def usage():
@@ -32,10 +31,13 @@ def usage():
 
 
 if __name__ == "__main__":
-    if len(sys.argv) == 2:
-        m = int(sys.argv[1])
-    else:
-        print(usage())
-        sys.exit(1)
-    print(f"Requesting conversion of '{m}' meters to feet... ")
-    print(f"{m} meters is equal to {meters_2_feet_client(m)} feet!")
+    try:
+        m = int(rospy.get_param('/meters2feet_client/convert_value'))
+    except KeyError:
+        if len(sys.argv) == 2:
+            m = int(sys.argv[1])
+        else:
+            print(usage())
+            sys.exit(1)
+    rospy.loginfo(f"Requesting conversion")# of '{m}' meters to feet... ")
+    rospy.loginfo(f"{m} meters is equal to {meters_2_feet_client(m)} feet!")

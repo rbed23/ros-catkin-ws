@@ -10,7 +10,7 @@ def process_service_request(req):
     # initializing Response variable
     response = m2fR()
 
-    print(f"Requesting <{req}> to be converted...")
+    rospy.loginfo(f"Requesting <{req}> to be converted...")
 
     # validating positive number    
     if(req.measurement_meters < 0):
@@ -22,16 +22,17 @@ def process_service_request(req):
         response.success = True
         response.measurement_feet = _CONV_FCT * req.measurement_meters
     
-    print(f"Converted: {response.success}  Value: {response.measurement_feet}")
+    rospy.loginfo(f"Converted: {response.success}  Value: {response.measurement_feet}")
     
     # returning response object to client
     return response
 
 
 def meters_2_feet_server():
-    rospy.init_node('meters_2_feet_server')
-    srvc = rospy.Service('meters_2_feet', m2f, process_service_request)
-    print("Server Running; Ready to Convert...")
+    name = meters_2_feet_server.__name__
+    rospy.init_node(name)
+    srvc = rospy.Service(name, m2f, process_service_request)
+    rospy.loginfo(f"Service Server <{name}> Started; Ready to Convert...")
     rospy.spin()
 
 

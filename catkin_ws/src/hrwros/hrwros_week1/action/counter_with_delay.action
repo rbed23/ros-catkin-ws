@@ -1,0 +1,8 @@
+# goal definition
+uint32 counter_target
+---
+# result definition
+string result_response
+---
+# feedback definition
+uint32 counter_current

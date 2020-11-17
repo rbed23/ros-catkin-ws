@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<launch>
+    <!--Argument(s) to the Launch File-->
+    <arg name="counter_delay_param" default="1.0"/>
+    <arg name="counter_goal_param" default="10"/>
+    <arg name="convert_meters_param" default="1"/>
+
+    <!--Start the Meters to Feet Service Server-->
+    <node name="meters2feet" pkg="hrwros_week1" type="convert_server.py" output="screen"/>
+
+    <!--Start the Counter Delay Action Server-->
+    <node name="counter_with_delay" pkg="hrwros_week1" type="counter_with_delay_server.py" output="screen">
+        <param name="delay_value" type="double" value="$(arg counter_delay_param)"/>
+    </node>
+
+    <!--Start the M2F Service Client-->
+    <node name="meters2feet_client" pkg="hrwros_week1" type="convert_client.py" output="screen">
+        <param name="convert_value" type="double" value="$(arg convert_meters_param)"/>
+    </node>
+
+    <!--Start the Counter Delay Action Client-->
+    <node name="counter_with_delay_client" pkg="hrwros_week1" type="counter_with_delay_client.py" output="screen">
+        <param name="goal_value" type="double" value="$(arg counter_goal_param)"/>
+    </node>
+</launch>
