@@ -62,7 +62,7 @@ if __name__ == "__main__":
     rospy.init_node('counter_with_delay')
     
     try:
-        delay_value = int(rospy.get_param('/counter_with_delay_server/delay_value'))
+        delay_value = int(rospy.get_param('/counter_with_delay/delay_value'))
     except KeyError:
         delay_value = int(sys.argv[1])
     
